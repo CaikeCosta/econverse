@@ -1,0 +1,211 @@
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+    background-color: #2A2A2A;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ladoDireito {
+    margin-top: 4rem ;
+    display: flex;
+    gap: 6.4rem;
+}
+
+.aboutFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.ladoDireito h4 {
+    font-size: 13px;
+    color: #fff;
+}
+
+.ladoDireito p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.footerTexts {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    gap: 1rem;
+    margin-top: 2.2rem;
+    text-transform: uppercase;
+}
+
+.socialIcons {
+    display: flex;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.socialIcons img {
+    width: 21.48px;
+    height: 21.46px;
+}
+
+.iconsPagamaento {
+    margin-top: 2.2rem;
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+#visa {
+    width: 48px;
+    height: 15.54px;
+}
+
+#elo {
+    width: 43.99px;
+    height: 20.77px;
+}
+
+#alelo {
+    width: 39px;
+    height: 25.49px;
+}
+
+#dinersClub {
+    width: 56px;
+    height: 14.51px;
+}
+
+#ifood {
+    width: 41px;
+    height: 21.7px;
+}
+
+#mastercard {
+    width: 37.29px;
+    height: 29px;
+}
+
+#pix {
+    width: 55px;
+    height: 19.55px;
+}
+
+#americanExpress {
+    width: 32px;
+    height: 30.31px;
+}
+
+#ticket {
+    width: 29px;
+    height: 29px;
+}
+
+#sodexo {
+    width: 48px;
+    height: 15.45px;
+}
+
+.ladoEsquerdo {
+    margin-top: 2rem;
+    margin-left: 17rem;
+}
+
+.newsLetter {
+    background-color: #fff;
+    color: #3F3F40;
+    padding: 3.2rem 2rem;
+    border-radius: 10px;
+    
+}
+
+.newsLetter h4 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.newsLetter span {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.newsLetter p {
+    margin-top: .8rem;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.newsLetter form {
+    margin-top: 1.5rem;
+}
+
+
+.newsLetter input {
+    width: 230px;
+    height: 45px;
+    border: #2A2A2A 1px solid;
+    border-radius: 4px;
+}
+
+.newsLetter input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+}
+
+.newsLetter button {
+    margin-left: 1rem;
+    width: 62px;
+    height: 45px;
+    background-color: #F71963;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.newsLetter button:hover {
+    cursor: pointer;
+}
+
+hr {
+    margin: 2.5rem 0;
+}
+
+.containerCopywrite {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerCopywrite p {
+    color: #fff;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+.iconsCompany {
+    display: flex;
+    gap: 2rem;
+    padding-left: 10rem;
+}
+
+#econverse {
+    width: 106.25px;
+    height: 31.62px;
+}
+
+#vtex {
+    width: 87.83px;
+    height: 32px;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.topHeader {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 17rem;
+    padding: .3em 0;
+    border-bottom: #F0F0F0 solid 1px;
+}
+
+.spanIcons {
+    display: flex;
+}
+
+.topHeader p {
+    color: #9F9F9F;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-left: 6px;
+}
+
+.topHeader img {
+    width: 20px;
+    height: 20px;
+}
+
+.destaqueTexto {
+    color: #F71963;
+    font-weight: 600;
+}
+
+.midHeader {
+    padding: 1em 12em;
+    display: flex;
+    gap: 6em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.logo img {
+    height: 50px;
+    width: 60px;
+}
+
+.input {
+    background-color: #F6F5F2;
+    border-radius: 10px;
+    border: none;
+    width: 60em;
+    height: 48px;
+}
+
+.input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 2em;
+    background-image: url('../icons/headerIcons/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 53em;
+    background-size: 2em;
+}
+
+.midHeader_icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.midHeader_icons img {
+    width: 32px;
+    height: 32px;
+}
+
+#box {
+    width: 24px;
+    height: 24px;
+}
+
+.categorias {
+    display: flex;
+    gap: 4em;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    color: #9F9F9F;
+    padding: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 80%;
+    margin: auto;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.premiumIcon {
+    display: flex;
+    align-items: center;
+}
+
+.premiumIcon p {
+    padding-left: 6px;
+}
+
+.premiumIcon img {
+    width: 20px;
+    height: 20px;
+}
